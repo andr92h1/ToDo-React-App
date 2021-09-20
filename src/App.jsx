@@ -1,4 +1,5 @@
 import React from "react"
+import TodoItem from "./components/Todoitem"
 
 
 
@@ -6,15 +7,11 @@ function App() {
 
     return (
 
-        <div>
-<input type ="checkbox"/><p>Code</p>
-
-<input type ="checkbox" /><p>Work Out</p>
-
-<input type ="checkbox" /><p>Work</p>
-
-<input type ="checkbox" /><p>Improve as tattoo artist</p>
-
+        <div className="todo-item">
+<TodoItem /> 
+<TodoItem />
+<TodoItem />
+<TodoItem />
         </div>
     )
 }
